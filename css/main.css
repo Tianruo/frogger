@@ -1,0 +1,37 @@
+#canvas_container{width:800px;height:600px;margin:40px auto;position:relative;}
+
+.close{position:absolute;top:150px;left:610px;width:40px;height:40px;background:#aaa;
+	text-align:center;line-height:35px;font-size:30px;color:#333;cursor:pointer;transition:all 0.2s}
+.close:hover{background:#bbb;color:#222;}
+
+.info{position:absolute;bottom:10px;left:20px;width:250px;height:120px;z-index:10;}
+.info>div{font-size:22px;color:#CD6600;margin-bottom:10px;}
+.setting{border-left:2px solid #ffa500;border-right:2px solid #ffa500;width:60px;height:30px;padding-left:10px;
+	background:rgba(0,0,0,0.1);cursor:pointer;transition:all 0.2s;}
+.setting:hover{background:rgba(0,0,0,0.2);}
+
+.content{width:400px;height:200px;position:absolute;top:400px;left:200px;
+	border:5px solid #ffa500;background:#222;opacity:0;transition:all 0.3s ease-out}
+.begin_content{top:150px;opacity:1;text-align:center;}
+.begin_content>div:first-child{font-size:35px;color:#ffa500;padding-top:25px;}
+.begin_content>div:last-child{font-size:16px;color:#ffa500; padding-top:25px;}
+.setting_content>div{width:50%;height:100%;float:left;text-align:center;line-height:200px;
+	font-size:24px;color:#ffa500;transition:all 0.3s ease-out;cursor:pointer;}
+.setting_content>div:first-child{background:#333;}
+.setting_content>div:last-child {background:#222;}
+.setting_content>div:first-child:hover{background:#444;}
+.setting_content>div:last-child:hover {background:#444;}
+.diff_content>div{float:left;height:100%;text-align:center;line-height:200px;transition:all 0.2s}
+.diff1{width:35%;background:#222;color:#ffa500;font-size:25px;cursor:pointer;}
+.diff2{width:30%;background:#333;color:#ffa500;font-size:25px;}
+.diff3{width:35%;background:#222;color:#ffa500;font-size:25px;cursor:pointer;}
+.diff1:hover,.diff3:hover{background:#111;}
+.over_content{text-align:center;}
+.over_content>.over1{font-size:35px;color:#ffa500;padding-top:25px;}
+.over_content>.over2{font-size:16px;color:#ffa500; padding-top:25px;}
+.over_content>.over3{position:absolute;bottom:0;left:0;height:30px;background:#333;text-align:center;
+	line-height:30px;color:#ffa500;width:100%;transition:all 0.2s;cursor:pointer;}
+.over_content>.over3:hover{background:#444;}
+
+.mask{position:absolute;top:355px;left:0;width:100%;height:50%;z-index:9;}
+

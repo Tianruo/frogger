@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>青蛙过河</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<div id="canvas_container">
+		<canvas id="canvas" width="800px" height="600px">对不起，您的浏览器不支持游戏运行</canvas>
+		<div class="close">×</div>
+		<div class="info">
+			<div class="info1">计时：00:00</div>
+			<div class="info2">当前难度：<span>5</span></div>
+			<div class="setting">设置</div>
+		</div>
+		<div class="content begin_content">
+			<div>青蛙过河</div>
+			<br>
+			<div>欢迎体验</div>
+		</div>
+		<div class="content setting_content">
+			<div>更换单词</div>
+			<div>难度调整</div>
+		</div>
+		<div class="content diff_content">
+			<div class="diff1">-</div>
+			<div class="diff2">5</div>
+			<div class="diff3">+</div>
+		</div>
+		<div class="content over_content">
+			<div class='over1'></div>
+			<br>
+			<div class='over2'></div>
+			<div class='over3'>继续游戏</div>
+		</div>
+		<div class="mask"></div>
+	</div>
+	<script src="./js/main.js"></script>
+	<script src="./js/action.js"></script>
+</body>
+</html>
